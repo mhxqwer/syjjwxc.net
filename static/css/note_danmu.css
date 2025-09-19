@@ -1,0 +1,124 @@
+#note_danmu_wrapper{
+    background: #ffffff;
+    padding: 12px;
+}
+.note_chapter_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #303030;
+    padding-bottom: 18px;
+}
+.note_chapter_title >div:first-child{
+    font-size: 18px;
+}
+.note_chapter_title >div:last-child{
+    font-size: 14px;
+}
+.display_zuohua {
+    font-size: 12px;
+    color: #707070;
+}
+.danmu_total_str{
+    font-size: 14px;
+    border-top: 1px solid #707070;
+}
+#danmu_main{
+    width: 100%;
+    height: 100px;
+}
+.danmu_row{
+    position: relative;
+    overflow-x: hidden;
+    height: 44px;
+    padding-top: 12px;
+    white-space: nowrap;
+}
+.marquee{
+    padding-top: 12px;
+}
+.marquee .danmu{
+    position: relative; margin-right: 10px; margin-top: 10px; left: 0
+}
+
+.danmu {
+    font-size: 14px;
+    position: absolute;
+    padding: 2px 10px;
+    border-radius: 14px;
+    white-space: nowrap;
+    left: 100%;
+}
+.danmu img {
+    vertical-align: sub;
+}
+.danmu_king{
+    background: #FEECE1;
+}
+.danmu_king_sp{
+    background: #FFD4D5;
+    border: 1px solid #D44B3A;
+}
+
+.danmu_king_sp > div{
+    margin-left: 18px;
+}
+.danmu_king .king_sp_img {
+    display: none;
+}
+.danmu_king_sp .king_sp_img {
+    display: block;
+}
+.king_sp_img{
+    position: absolute;
+    top: -20px;
+    left: -32px; /*¿í¶ÈÒ»°ë*/
+    width: 60px;
+    z-index: 999;
+}
+.danmu_nutrition{
+    background: #EEF6EB;
+}
+.note_main{
+    font-size: 15px;
+    color: #303030;
+    margin: 10px 0;
+}
+.recommend_novel_tip{
+    color: #707070;
+    font-size: 12px;
+}
+.rec_novel{
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.one_rec_novel{display: block; width: 46%; margin-bottom: 30px}
+.one_rec_novel > div{
+    display: inline-block;
+}
+
+.rec_novel_cover img {
+    width: 90px;
+    height: 126px;
+}
+.rec_novel_info {
+    margin-left: 10px;
+    max-width: calc(100% - 110px);
+    vertical-align: top;
+    color: #303030;
+}
+.rec_novel_info .rec_novel_name {
+    font-size: 15px;
+}
+.rec_novel_info .rec_novel_class {
+    font-size: 14px;
+}
+.rec_novel_info .rec_novel_novelintro {
+    font-size: 12px;
+    color: #707070;
+}
+.rec_novel_info >div{
+    margin-bottom: 4px
+}
